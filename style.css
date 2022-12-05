@@ -734,4 +734,9 @@ ul li {
     letter-spacing: 0.1em;
     font-size: 10px;
 }
-
+#fname
+{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+}
