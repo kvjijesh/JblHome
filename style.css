@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headercont {
+    display: flex;
+    flex-direction: column;
+    height: 118px;
+
+
+}
+
+.tophead {
+    display: flex;
+    height: 50%;
+    padding-left: 65px;
+    padding-right: 65px;
+
+}
+
+.leftcont {
+    display: flex;
+    width: 50%;
+    padding-top: 10px;
+
+}
+
+.rightcont {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.topleftfont {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    color: rgb(196, 97, 72);
+}
+
+.shop {
+    font-family: Helvetica, sans-serif;
+
+    color: #c12700;
+    font-weight: bold;
+}
+
+.lefftlink {
+    font-family: "HelveticaNeueW01-55Roma", Helvetica, sans-serif;
+
+}
+
+.toplist {
+    text-decoration: none;
+}
+
+.bothead {
+    display: flex;
+    height: 50%;
+    padding-left: 65px;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+ul li {
+    align-items: center;
+    list-style: none;
+    padding: 10px 15px;
+}
+
+ul li {
+    font-family: "HelveticaNeueW01-55Roma", Helvetica, sans-serif;
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    width: 5%;
+
+}
+
+.logopro {
+    height: 60px;
+    width: 60px;
+}
+
+.menulist {
+    display: flex;
+    width: 60%;
+
+    justify-items: flex-start;
+}
+
+.menuicons {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+
+}
+
+.ahead {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.menuimg {
+    width: 17px;
+    height: 17px;
+    padding: 10px;
+}
+
+.hrline {
+    height: 1px;
+    background: hsl(14, 80%, 54%);
+    width: 92%;
+    margin-left: 60px;
+}
+
+
+.mainpro {
+    width: 100%;
+}
+
+.mainbodyimage {
+
+    position: relative;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 5px;
+}
+
+.btn {
+    position: absolute;
+    top: 66%;
+    left: 6%;
+
+    background-color: rgb(225, 74, 74);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.whybuy {
+    display: flex;
+    flex-direction: column;
+    background: #f3efee;
+    height: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.buytop {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+
+}
+
+.symbolship {
+    display: flex;
+    height: 50%;
+}
+
+.buyhead {
+    padding: 65px 0 35px 0;
+    text-align: center;
+    font-size: 34px;
+    color: #111;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.van {
+    display: flex;
+    width: 35%;
+
+    justify-content: flex-end;
+    align-items: center;
+    padding: 60px;
+    font-size: 18px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.thumb {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+.return {
+    display: flex;
+    width: 34%;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-weight: 800;
+    justify-content: flex-start;
+
+
+}
+
+.vanimg {
+    height: 38px;
+    width: 38px;
+}
+
+.pophead {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#pop {
+    font-size: 35px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.popularpro {
+    display: flex;
+    height: 450px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+
+
+}
+
+.flip {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 23%;
+    align-items: center;
+}
+
+.tune {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 23%;
+    align-items: center;
+}
+
+.partybox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 23%;
+    align-items: center;
+
+}
+
+.go {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 23%;
+    align-items: center;
+}
+
+.flip1 {
+    display: flex;
+    height: 240px;
+    justify-items: center;
+}
+
+.flip2 {
+    display: flex;
+    height: 70px;
+}
+
+.flip3 {
+    display: flex;
+    height: 70px;
+}
+
+.prohead {
+    font-size: 18px;
+    font-family: "HelveticaNeueW01-75Bold", Helvetica, sans-serif;
+    color: #222;
+    cursor: pointer;
+
+}
+
+.variant {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.SalePrice {
+    font-size: 18px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    color: #df2d00;
+    letter-spacing: 0.9px;
+    font-weight: 600;
+}
+
+.fontpriceold {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #000;
+    font-family: "HelveticaNeueW01-45Ligh", Helvetica, sans-serif;
+}
+
+.each {
+    font-size: 18px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    color: #df2d00;
+    font-weight: 600;
+}
+
+.tws {
+    display: flex;
+    height: 460px;
+
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+}
+
+.twsimg {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.twstext {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.twshead {
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.tickicon {
+    width: 15px;
+    height: 15px;
+}
+
+.twstophead {
+    height: 50px;
+}
+
+.tws1 {
+    display: flex;
+    height: 20px;
+}
+
+.tws2 {
+    font-family: "HelveticaNeueW01-55Roma", Helvetica, sans-serif;
+    color: #545454;
+}
+
+.selcircle {
+    height: 30px;
+    padding-top: 15px;
+
+}
+
+.btn2 {
+    background-color: rgb(225, 74, 74);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.discover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discjbl {
+    display: flex;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.obj1 {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj2 {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj3 {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj4 {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj5 {
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dimg {
+    height: 167px;
+    width: 167px;
+}
+
+.prohead1 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "HelveticaNeueW01-75Bold", Helvetica, sans-serif;
+    color: #222;
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+.companion {
+    height: 136px;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.party {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.showcase {
+    display: flex;
+    height: 1210px;
+    background: #eae3e3;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-around;
+}
+
+.leftshow {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+
+    justify-content: space-around;
+}
+
+.rightshow {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-around;
+}
+
+.bar1 {
+    display: flex;
+    height: 32%;
+
+}
+
+.bar2 {
+    display: flex;
+    height: 32%;
+
+}
+
+.bar3 {
+    display: flex;
+    height: 32%;
+
+}
+
+.bar4 {
+    display: flex;
+    height: 32%;
+    ;
+
+}
+
+.bar5 {
+    display: flex;
+
+
+    height: 32%;
+}
+
+.bar6 {
+    display: flex;
+
+    height: 32%;
+}
+
+.picture {
+    display: flex;
+    width: 50%;
+}
+
+.letter {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 10px;
+    background: white;
+
+}
+
+.fontheading {
+    font-size: 24px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.subtitle {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #000;
+    padding-top: 5px;
+}
+
+.viewpro {
+    width: 198px;
+    font-family: "AvantGardeGothicITCW01B 731063", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+    cursor: pointer;
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #df2d00;
+    font-weight: bold;
+
+}
+
+.rightangle {
+    width: 18px;
+    height: 18px;
+}
+
+.topform {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: white;
+    align-items: flex-end;
+}
+
+.newsletter {
+    height: 240px;
+    width: 100%;
+    background: black;
+}
+
+.bottomform {
+
+    height: 100px;
+
+}
+
+.signupletter {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.form1 {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    padding: 0%;
+    margin-left: 50px;
+}
+
+.bottomform {
+    margin-left: 100px;
+    margin-right: 100px;
+    background: white;
+}
+
+.footercontainer {
+    display: flex;
+    height: 720px;
+    background: #000;
+}
+
+.shopfooter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 25%;
+}
+
+.footeritems {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+.supportfooter {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footeritems1 {
+
+    font-size: 14px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    color: white;
+}
+.footicon
+{
+    display: flex;
+    margin-left: 18px;
+    cursor: pointer;
+    background: wheat;
+    height: 25px;
+    align-items: center;
+}
+.footim{
+    width: 15px;
+    height: 15px;
+
+
+}
+#seclogo
+{
+    padding-top: 20px;
+    width: 116px;
+    margin-left: 20px;
+}
+.brandfooter
+{
+    display: flex;
+    height: 100px;
+    background: #000;
+    justify-content: center;
+}
+.rights
+{
+    height: 30px;
+    text-align: center;
+    color: #AEAEAE;
+    background-color: black;
+    padding: 15px 0;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+}
+
