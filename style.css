@@ -4,9 +4,13 @@
 }
 
 .headercont {
+    position: fixed;
     display: flex;
     flex-direction: column;
     height: 118px;
+    width: 100%;
+z-index: 1;
+background: #f3efee;
 
 
 }
@@ -118,6 +122,7 @@ ul li {
 }
 
 .menuimg {
+
     width: 17px;
     height: 17px;
     padding: 10px;
@@ -137,10 +142,16 @@ ul li {
 
 .mainbodyimage {
 
-    position: relative;
+display: flex;
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 5px;
+
+}
+.mainimagepro
+{
+    margin-top: 120px;
+    width: 100%;
+
 }
 
 .btn {
@@ -157,6 +168,10 @@ ul li {
     cursor: pointer;
     border-radius: 20px;
     text-align: center;
+}
+.btn:hover{
+    background: #f3efee;
+    color: #df2d00;
 }
 
 .whybuy {
@@ -406,6 +421,10 @@ ul li {
     border-radius: 20px;
     text-align: center;
 
+}
+.btn2:hover{
+    background: white;
+    color: #df2d00;
 }
 
 .discover {
